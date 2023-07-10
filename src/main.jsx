@@ -6,6 +6,7 @@ import Home from "./routes/Home";
 import Program from "./routes/Program";
 import Course from "./routes/Course";
 import Login from "./routes/Login";
+import LogOut from "./routes/LogOut";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/logout",
+    element: <LogOut />,
   },
 ]);
 
