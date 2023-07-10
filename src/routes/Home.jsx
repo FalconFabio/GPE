@@ -1,3 +1,10 @@
+import NavigationBar from "../Components/NavigationBar/NavigationBar";
+
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <NavigationBar />
+      <h1>Home</h1>
+    </div>
+  );
 }

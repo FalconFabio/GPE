@@ -1,10 +1,10 @@
 import NavigationBar from "../Components/NavigationBar/NavigationBar";
 
-export default function Program() {
+export default function LogOut() {
   return (
     <div>
       <NavigationBar />
-      <h1>Program</h1>
+      <h1>LogOut</h1>
     </div>
   );
 }
