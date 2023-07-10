@@ -1,5 +1,5 @@
 import NavigationBar from "../Components/NavigationBar/NavigationBar";
-import PlayerCard from "../Components/NavigationBar/PlayerCard/PlayerCard";
+import PlayerCard from "../Components/PlayerCard/PlayerCard";
 
 export default function Home() {
   return (
