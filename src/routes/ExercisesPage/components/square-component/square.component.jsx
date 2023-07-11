@@ -1,9 +1,15 @@
-import { useState } from "react";
-import "./square.component.css";
+// square.component.jsx
 
-export default function SquareComponent() {
+import { useState } from "react";
+import "./square.component.css"; // Importez votre fichier CSS pour le style du composant SquareComponent
+import image1 from "../../../../assets/billiard.jpg";
+import image2 from "../../../../assets/billiard.jpg";
+import image3 from "../../../../assets/billiard.jpg";
+// Importez d'autres images selon vos besoins
+
+const SquareComponent = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const squaresPerPage = 12; // Augmenté pour avoir plus de carrés sur une page
+  const squaresPerPage = 6;
   const totalSquares = 20; // Nombre total de carrés
 
   const totalPages = Math.ceil(totalSquares / squaresPerPage);
@@ -27,14 +33,28 @@ export default function SquareComponent() {
     const squares = [];
 
     for (let i = startIndex; i < endIndex && i < totalSquares; i++) {
+      const imagePath = getImagePath(i);
       squares.push(
         <div key={i} className="square">
-          {/* Contenu du carré */}
+          <img
+            src={imagePath}
+            alt={`Image ${i + 1}`}
+            className="square-image"
+          />
         </div>
       );
     }
 
     return squares;
+  };
+
+  const getImagePath = (index) => {
+    // Logique pour obtenir le chemin de l'image en fonction de l'index
+    // Exemple : return `../assets/image${index + 1}.jpg`;
+
+    // Pour cet exemple, nous utilisons des images statiques
+    const images = [image1, image2, image3];
+    return images[index % images.length];
   };
 
   return (
@@ -49,4 +69,6 @@ export default function SquareComponent() {
       </div>
     </div>
   );
-}
+};
+
+export default SquareComponent;
