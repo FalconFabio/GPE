@@ -20,11 +20,7 @@ cd test2-gpe
 ```
 
 ```
-npm i vite
-```
-
-```
-npm i
+npm install
 ```
 
 ```
