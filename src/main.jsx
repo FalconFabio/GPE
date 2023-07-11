@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./routes/Home";
 import Program from "./routes/ProgramPage/Program";
-import Course from "./routes/Course";
+import Course from "./routes/Course/Course";
 import Exercises from "./routes/ExercisesPage/Exercises";
 import Login from "./routes/Login";
 import LogOut from "./routes/LogOut";
