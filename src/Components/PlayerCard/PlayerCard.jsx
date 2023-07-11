@@ -1,5 +1,7 @@
 import "./PlayerCard.css";
 
+//
+
 function PlayerPicture() {
   return (
     <div>
