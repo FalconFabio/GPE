@@ -1,3 +1,5 @@
+/* square.component.css */
+
 .content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -5,7 +7,8 @@
 }
 
 .square {
-  background-color: #000;
+  position: relative;
+  width: 200px;
   height: 200px;
   cursor: pointer;
   transition: transform 0.3s;
@@ -13,4 +16,13 @@
 
 .square:hover {
   transform: scale(1.2);
+}
+
+.square-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  width: 100%;
+  height: auto;
 }
