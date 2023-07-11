@@ -1,9 +1,16 @@
 Pour lancer le projet :
-`git clone`
 
-Puis :
-`cd projet`
+```
+$ git clone git@github.com:FalconFabio/GPE.git
+ou
+$ git clone https://github.com/FalconFabio/GPE.git
+```
 
-`npm i vite`
+Puis pour lancer le projet
 
-`npm i`
+```
+$ cd test2-gpe
+$ npm i vite
+$ npm i
+$ npm run dev
+```
