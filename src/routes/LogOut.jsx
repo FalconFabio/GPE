@@ -4,7 +4,7 @@ export default function LogOut() {
   return (
     <div>
       <NavigationBar />
-      <h1>LogOut</h1>
+      <h1>Log Out</h1>
     </div>
   );
 }

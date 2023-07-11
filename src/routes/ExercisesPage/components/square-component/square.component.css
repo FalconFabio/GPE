@@ -1,0 +1,16 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.square {
+  background-color: #000;
+  height: 200px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.square:hover {
+  transform: scale(1.2);
+}
