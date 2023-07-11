@@ -4,13 +4,13 @@ Si vous n'avez pas `vite`, lancez la commande :
 Afin de télécharger le projet :
 
 ```
-$ git clone git@github.com:FalconFabio/GPE.git
+git clone git@github.com:FalconFabio/GPE.git
 ```
 
 ou
 
 ```
-$ git clone https://github.com/FalconFabio/GPE.git
+git clone https://github.com/FalconFabio/GPE.git
 ```
 
 Puis pour lancer le projet
