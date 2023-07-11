@@ -16,7 +16,7 @@ git clone https://github.com/FalconFabio/GPE.git
 Puis pour lancer le projet
 
 ```
-cd nom-projet
+cd GPE
 ```
 
 ```
