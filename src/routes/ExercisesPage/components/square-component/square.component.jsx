@@ -9,7 +9,7 @@ import image3 from "../../../../assets/billiard.jpg";
 
 const SquareComponent = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const squaresPerPage = 18;
+  const squaresPerPage = 12;
   const totalSquares = 20; // Nombre total de carrés
 
   const totalPages = Math.ceil(totalSquares / squaresPerPage);
