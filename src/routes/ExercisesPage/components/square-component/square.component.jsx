@@ -9,7 +9,7 @@ import image3 from "../../../../assets/billiard.jpg";
 
 const SquareComponent = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const squaresPerPage = 6;
+  const squaresPerPage = 18;
   const totalSquares = 20; // Nombre total de carrés
 
   const totalPages = Math.ceil(totalSquares / squaresPerPage);
@@ -59,10 +59,9 @@ const SquareComponent = () => {
 
   return (
     <div>
-      <div className="navbar">{/* Votre barre de navigation ici */}</div>
-
       <div className="content">{renderSquares()}</div>
-
+      <br></br>
+      <br></br>
       <div className="pagination">
         <button onClick={handleClickPrevious}>Précédent</button>
         <button onClick={handleClickNext}>Suivant</button>
