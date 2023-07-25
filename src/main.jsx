@@ -8,6 +8,7 @@ import Course from "./routes/Course/Course";
 import Exercises from "./routes/ExercisesPage/Exercises";
 import Login from "./routes/Login";
 import LogOut from "./routes/Logout/LogOut";
+import Execution from "./routes/Execution/Execution";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/program",
     element: <Program />,
+  },
+  {
+    path: "/execution",
+    element: <Execution />,
   },
   {
     path: "/course",
